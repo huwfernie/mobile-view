@@ -1,0 +1,32 @@
+.outline {
+	position: relative;
+	width: 500px;
+	height: 600px;
+	width: 600px;
+	height: auto;
+}
+
+iframe {
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	top: 120px;
+	left: 188px;
+
+
+	width: 260px;
+	height: 450px;
+	width: 320px;
+	height: 568px;
+	border: 2px solid black;
+
+	background: white;
+}
+
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
