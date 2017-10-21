@@ -35,3 +35,45 @@ iframe {
   top: 60%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 700px) {
+  html {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    max-height: 100vh;
+    background: inherit;
+    padding: none;
+    margin: none;
+  }
+
+  .outline {
+  	position: relative;
+  	width: 593px;
+  	height: auto;
+    display: none;
+  }
+
+  iframe {
+  	position: relative;
+  	top: 0;
+  	left: 0;
+
+  	width: 100vw;
+    margin: 0 auto;
+  	height: 100vh;
+  	border: 0px solid black;
+  	background: white;
+  }
+
+
+  .container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+    border: 0px solid yellow;
+  }
+}
